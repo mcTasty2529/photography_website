@@ -160,7 +160,6 @@ body {
 
 /* ------------------------ */
 .second_heading {
-  background-color: #005354;
   display: flex;
   flex-direction: column;
   padding: 0 10px;
@@ -179,6 +178,7 @@ body {
 .second_heading .description {
   font-size: 20px;
   margin: 0;
+  color: ;
 }
 
 /* ------------------------ */
@@ -371,7 +371,6 @@ body {
   color: whitesmoke;
 }
 .third_heading {
-  background-color: #005354;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -448,7 +447,6 @@ body {
   color: whitesmoke;
 }
 .fourth_heading {
-  background-color: #005354;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -562,14 +560,12 @@ body {
   color: whitesmoke;
 }
 .fifth_heading {
-  background-color: #005354;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 50px;
   text-align: center;
-  padding: 10px;
   width: 100%;
   height: 20%;
   /* background-color: violet; */
