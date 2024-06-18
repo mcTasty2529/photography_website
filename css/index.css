@@ -400,11 +400,10 @@ body {
 .question {
   width: 100%;
   height: 25%;
-  /* background-color: violet; */
-  font-size: 20px;
+  font-size: 18px;
   border-bottom: 3px solid rgb(110, 103, 103);
   border-radius: 10px;
-  padding: 10px;
+  padding: 5px;
 }
 .question_freq {
   width: 50%;
