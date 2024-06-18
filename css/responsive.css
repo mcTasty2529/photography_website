@@ -23,12 +23,12 @@
   .second_section {
     height: 400vh;
     width: 100vw;
-    padding: 15px;
+    padding: 0;
     margin: 0;
   }
   .second_heading {
     width: 100%;
-    height: 30vh;
+    height: 8%;
   }
   .second_heading .main {
     font-size: 30px;
@@ -42,7 +42,8 @@
 
   .img_grid {
     height: 250vh;
-    padding: 10px;
+    padding: 15px;
+    margin: 20px;
     grid-template-columns: 1fr;
     grid-template-rows: 20% 20% 20% 20% 20%;
   }
@@ -105,12 +106,12 @@
   .faq {
     height: 120vh;
     width: 100vw;
-    padding: 15px;
     margin: 0;
   }
   .third_heading {
     width: 100%;
     height: 20%;
+    padding: 30px 0;
   }
   .third_heading h1 {
     font-size: 30px;
@@ -122,7 +123,7 @@
   .question_section {
     height: 80%;
     width: 100%;
-    padding: 20px;
+    padding: 0 20px;
     margin-top: 0;
   }
   .questions {
@@ -134,13 +135,12 @@
   .question {
     width: 100%;
     padding: 10px;
-    height: 25%;
-    position: relative;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  .question p {
-    position: absolute;
-    bottom: 0;
-  }
+
   .question_freq {
     display: none;
   }
@@ -150,7 +150,7 @@
   .testimonials {
     height: 150vh;
     width: 100vw;
-    padding: 15px;
+    padding: 0;
     margin: 0;
   }
   .fourth_heading {
@@ -195,12 +195,13 @@
   .blogs {
     height: 300vh;
     width: 100vw;
-    padding: 20px;
+    padding: 0;
     margin: 0;
+    padding-bottom: 10px;
   }
   .fifth_heading {
     width: 100%;
-    height: 30vh;
+    height: 20%;
   }
   .fifth_heading h1 {
     font-size: 30px;
@@ -221,8 +222,12 @@
     height: 100vh;
     margin: 0 50px;
   }
+  .card_img {
+    height: 70%;
+  }
   .card_content p {
     display: none;
+    height: 30%;
   }
 
   /* ----------------------------- */
@@ -267,12 +272,13 @@
   .second_section {
     height: 300vh;
     width: 100vw;
-    padding: 15px;
+    padding: 0;
     margin: 0;
   }
   .second_heading {
     width: 100%;
     height: 30vh;
+    margin-top: 50px;
   }
   .second_heading .main {
     font-size: 30px;
@@ -334,12 +340,12 @@
   .faq {
     height: 120vh;
     width: 100vw;
-    padding: 15px;
     margin: 0;
   }
   .third_heading {
     width: 100%;
     height: 20%;
+    margin-top: 50px;
   }
   .third_heading h1 {
     font-size: 30px;
@@ -360,8 +366,12 @@
     width: 80%;
   }
   .question {
-    padding: 20px;
-    height: 25%;
+    width: 100%;
+    padding: 10px;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .question_freq {
     display: none;
@@ -372,12 +382,12 @@
   .testimonials {
     height: 150vh;
     width: 100vw;
-    padding: 15px;
     margin: 0;
   }
   .fourth_heading {
     width: 100%;
     height: 20%;
+    margin-top: 50px;
   }
   .fourth_heading h1 {
     font-size: 30px;
@@ -421,8 +431,9 @@
   /* ----------------------------- */
 
   .fifth_heading {
-    width: 80%;
+    width: 100%;
     height: 20%;
+    margin-top: 50px;
   }
   .fifth_heading h1 {
     font-size: 30px;
@@ -437,6 +448,9 @@
   }
   .card {
     height: 90%;
+  }
+  .card_img {
+    height: 65%;
   }
   .card_content p {
     display: none;
