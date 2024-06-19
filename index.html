@@ -41,25 +41,21 @@
           <li><a href="#blogs">Blogs</a></li>
           <li><a href="#footer">Contact</a></li>
         </ul>
-        <!-- <div class="hamburger">
-          <a href="#"><i class="fa-solid fa-bars icon"></i></a>
-        </div> -->
-        <div class="drawer">
-          <input type="checkbox" />
-          <span class="drawer__name">
-            <div class="hamburger">
-              <a href="#"><i class="fa-solid fa-bars icon"></i></a>
-            </div>
-          </span>
-          <ul class="drawer__content">
+
+        <div class="dropdown">
+          <div class="hamburger">
+            <a href="#"><i class="fa-solid fa-bars icon"></i></a>
+          </div>
+          <div class="dropdown-content">
             <li><a href="#">Home</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#blogs">Blogs</a></li>
             <li><a href="#footer">Contact</a></li>
-          </ul>
+          </div>
         </div>
       </nav>
     </header>
+
     <main class="hero">
       <section class="main_section">
         <aside class="aside">
@@ -78,6 +74,7 @@
         </div>
       </section>
     </main>
+
     <section class="second_section" id="services">
       <div class="second_heading">
         <h1 class="main">Amazing Photo Gallery</h1>
@@ -185,6 +182,7 @@
         </div>
       </div>
     </section>
+
     <section class="faq">
       <div class="third_heading">
         <h1>Frequently Asked Questions.</h1>
@@ -220,23 +218,24 @@
         <div class="question_freq">
           <div class="freq">
             <p>Photography 80%</p>
-            <input type="range" value="80" disabled />
+            <input class="range1" type="range" value="80" />
           </div>
           <div class="freq">
             <p>Creativity 95%</p>
-            <input type="range" value="95" disabled />
+            <input class="range2" type="range" value="95" />
           </div>
           <div class="freq">
             <p>Retouching 60%</p>
-            <input type="range" value="60" disabled />
+            <input class="range3" type="range" value="60" />
           </div>
           <div class="freq">
             <p>New Skills 85%</p>
-            <input type="range" value="85" disabled />
+            <input class="range4" type="range" value="85" />
           </div>
         </div>
       </div>
     </section>
+
     <section class="testimonials">
       <div class="fourth_heading">
         <h1>Testimonials</h1>
@@ -265,12 +264,14 @@
         </div>
       </div>
     </section>
+
     <section class="contact">
       <h1>Looking For</h1>
       <h1 class="italic_text">Quality Photography?</h1>
 
       <button>Contact Us</button>
     </section>
+
     <section class="blogs" id="blogs">
       <div class="fifth_heading">
         <h1>Latest Blog Posts</h1>
@@ -322,6 +323,7 @@
         </div>
       </div>
     </section>
+
     <footer class="footer" id="footer">
       <div class="footer_links">
         <h1>Contact Us</h1>

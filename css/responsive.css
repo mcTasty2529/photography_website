@@ -252,12 +252,19 @@
   }
 
   /* ----------------------------- */
-  .drawer {
-    display: block;
-  }
-  /* ----------------------------- */
+
   .scrollup {
     display: none;
+  }
+
+  /* ----------------------------- */
+
+  .dropdown {
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    right: -20px;
   }
 }
 
@@ -276,6 +283,9 @@
     height: 50%;
   }
 
+  .navlinks {
+    margin-right: 20px;
+  }
   /* ----------------------------- */
 
   .second_section {
@@ -488,15 +498,11 @@
   }
 
   /* ----------------------------- */
-  .drawer {
-    display: none;
-  }
-  .drawer_content {
+  .scrollup {
     display: none;
   }
 
-  /* ----------------------------- */
-  .scrollup {
+  .dropdown {
     display: none;
   }
 }
