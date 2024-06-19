@@ -250,6 +250,15 @@
   .footer_content {
     display: none;
   }
+
+  /* ----------------------------- */
+  .drawer {
+    display: block;
+  }
+  /* ----------------------------- */
+  .scrollup {
+    display: none;
+  }
 }
 
 /* ----------------------------- */
@@ -476,5 +485,18 @@
   }
   .copyright {
     height: 10%;
+  }
+
+  /* ----------------------------- */
+  .drawer {
+    display: none;
+  }
+  .drawer_content {
+    display: none;
+  }
+
+  /* ----------------------------- */
+  .scrollup {
+    display: none;
   }
 }

@@ -7,7 +7,9 @@
   box-sizing: border-box;
   font-family: "Poppins";
   transition: 300ms ease;
+  scroll-behavior: smooth;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -15,8 +17,25 @@ body {
   /* background-color: blue; */
   display: flex;
   flex-direction: column;
-  scroll-behavior: smooth;
   transition: 500ms ease;
+  position: relative;
+}
+.scrollup {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #005354;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 1;
+  left: 94vw;
+  top: 90vh;
+}
+.scrollup .icon {
+  font-size: 25px;
+  color: whitesmoke;
 }
 
 /* ------------------------ */
@@ -178,7 +197,7 @@ body {
 .second_heading .description {
   font-size: 20px;
   margin: 0;
-  color: ;
+  color: whitesmoke;
 }
 
 /* ------------------------ */
@@ -710,3 +729,54 @@ body {
 }
 
 /* ------------------------ */
+.drawer {
+  position: relative;
+  box-sizing: border-box;
+  width: 60px;
+  display: none;
+}
+.drawer input {
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  margin: 0;
+  z-index: 3;
+  cursor: pointer;
+}
+.drawer__name {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.drawer__content {
+  background-color: #101010;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  height: 0;
+  opacity: 0;
+  pointer-events: none;
+  list-style: none;
+  transition: padding 0.2s;
+}
+.drawer__content li {
+  margin-top: 5px;
+  width: 110px;
+  height: 40px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--accent);
+}
+.drawer__content a {
+  text-decoration: none;
+}
+.drawer input:checked ~ .drawer__content {
+  opacity: 1;
+  pointer-events: initial;
+  padding: 0 0;
+}
