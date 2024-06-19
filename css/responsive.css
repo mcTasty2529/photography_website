@@ -91,6 +91,8 @@
 
   .stats {
     margin-top: 100px;
+    padding: 0 30px;
+    display: flex;
     height: 80vh;
     flex-wrap: wrap;
     width: 100%;

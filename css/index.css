@@ -368,8 +368,7 @@ body {
   display: flex;
   height: 20%;
   width: 100%;
-  margin: 30px;
-  justify-content: space-evenly;
+  justify-content: center;
   gap: 20px;
   align-items: center;
 }
